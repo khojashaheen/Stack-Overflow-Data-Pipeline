@@ -4,9 +4,9 @@ An end-to-end ETL pipeline implemented on Azure ecosystem to collect, process a 
 ## Overview
 The primary goal of this pipeline is to understand the daily trending topics on Stack Overflow community and users' statistics information (geolocation distribution and reputation per cuntry). 
 
-<img width="330" alt="Dashboard_Topic" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/a45381c1-7159-42e3-af29-cbfbd2aaec3e">
-<img width="338" alt="Dashboard_Users" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/169ec000-7f4e-4aa4-9035-5f981e820c93">
-<img width="330" alt="Dashboard_Users_Per_Country" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/58d1e06b-fb4d-4ca4-bfcc-0f973aa9fbb6">
+<img width="320" alt="Dashboard_Topic" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/a45381c1-7159-42e3-af29-cbfbd2aaec3e">
+<img width="328" alt="Dashboard_Users" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/169ec000-7f4e-4aa4-9035-5f981e820c93">
+<img width="320" alt="Dashboard_Users_Per_Country" src="https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline/assets/132402838/58d1e06b-fb4d-4ca4-bfcc-0f973aa9fbb6">
 
 
 ## System Architecture Overview
