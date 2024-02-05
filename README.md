@@ -16,13 +16,18 @@ The end to end pipeline is implemented using Azure services (Azure Data Factory,
 
 
 ## Pre-requisites
-Azure Account
-Tableau Account
+  - Azure Account
+  - Tableau Account
 
 ## Installation
-
-### Step 1. Create Virtual machine, Storage Account, Container and Folder to accept the files from the data sources
-### Step 2. 
+#### Step 1. Clone the Repository:
+  - Use git clone https://github.com/khojashaheen/Stack-Overflow-Data-Pipeline to clone this repository to your local machine.
+  
+#### Step 2. Complete Pre-requisites Steps
+#### Step 3. Create Azure Virtual machine, Storage Account, Container and Folder following the guideline [Azure VM and Storage Setup Doc](Docs/a.Create%20Azure%20VM%20and%20Storage%20Account.md)
+#### Step 4. Create Azure Data Factory Pipelines following the guideline [Data Factory Pipeline Creation Doc](Docs/b.%20create%20Data%20Factory%20pipelines.md)
+#### Step 5: Validate data flow from source (RDS,Blob Storage,Azure Function) to Destination (Azure SQL)
+#### Step 6: Login to Tableau BI tool, connect to Azure SQL databases and import [Tableau Workbook Dashboard](Tableau/Phase%202%20Dashboard.twbx)
 
 
 
