@@ -1,2 +1,12 @@
 # Stack-Overflow-Data-Pipeline
-An end-to-end ETL pipeline implemented on Azure ecosystem to collect, process Stack Overflow posts in a distributed way and provide visual insights using Tableau dashboards
+An end-to-end ETL pipeline implemented on Azure ecosystem to collect, process a large dataset of Stack Overflow posts to identify the trending topics per day and users' geolocation and statistics information per country, and provide visual insights using Tableau dashboards.
+
+## Overview
+The primary goal of this pipeline is to understand the daily trending topics on Stack Overflow and users' statistics information (geolocation distribution and reputation) in the community. 
+The end to end pipeline is implemented using Azure services (Azure Data Factory, Azure DataBricks, Azure Blob Storage, Azure SQL Database, Azure Function) to process several files of input using Spark clusters, and have the results stored in Azure Data Lake and copy them to Azure SQL Tables. The project leverages Tableau BI Tool to connect to the SQL Tables and create a dashboard for analytics and reporting purpose.
+
+## System Architecture Overview
+
+## Installation
+
+## Pre-requisites
